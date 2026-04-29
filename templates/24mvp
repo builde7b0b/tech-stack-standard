@@ -1,0 +1,22 @@
+Use 24-Hour MVP Mode.
+
+Goal:
+Build the smallest production-deployable version that proves the core user journey.
+
+Rules:
+- No unnecessary abstractions.
+- No new dependency unless critical.
+- No custom design system unless already present.
+- Use existing Supabase client pattern.
+- Use RLS from day one.
+- Use simple responsive UI.
+- One complete happy path beats five incomplete features.
+- App must build successfully before task is considered done.
+
+Deliver:
+- Working frontend
+- Supabase schema/migrations
+- RLS policies
+- Basic tests
+- Deployment notes for Netlify/Railway
+- Security checklist results
